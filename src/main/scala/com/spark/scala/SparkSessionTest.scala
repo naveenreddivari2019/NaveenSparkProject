@@ -25,7 +25,7 @@ object SparkSessionTest {
 
     case class Employee(id: Int, name: String)
 
-    //val rdd = spark.read.schema(schema1).csv("""C:\Local Disc(D)\Hadoop\TCS\Integrated usecase\Integrated usecase\Patients.csv""")
+    val rdd = spark.read.schema(schema1).csv("""C:\Local Disc(D)\Hadoop\TCS\Integrated usecase\Integrated usecase\Patients.csv""")
     //val rdd = spark.read.parquet("""C:\Local Disc(D)\Hadoop\TCS\Integrated usecase\parquet1""")
     // val rdd = spark.read.format("parquet").load("""C:\Local Disc(D)\Hadoop\TCS\Integrated usecase\parquetPartition""")
 
